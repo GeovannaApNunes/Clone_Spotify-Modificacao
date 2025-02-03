@@ -17,7 +17,5 @@ Este é um projeto de recriação da interface do Spotify, desenvolvido durante 
 - *API Fake*: API personalizada simulando dados de músicas e cantores.
 - *Fetch API*: Utilizada para consumir a API fake e trazer as músicas.
 
-<video width="640" height="360" controls>
-  <source src="video_spotify.mp4" type="video/mp4">
-  Seu navegador não suporta o formato de vídeo.
-</video>
+<img src=".jpg" alt="#" style="max-width:100%; height: auto;">
+<img src=".jpg" alt="#" style="max-width:100%; height: auto;">
