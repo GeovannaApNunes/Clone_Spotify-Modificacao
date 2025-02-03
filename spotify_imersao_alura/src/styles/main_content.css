@@ -1,0 +1,301 @@
+.main-container {
+  max-width: 80vw;
+  height: 100vh;
+  margin-left: 320px;
+  margin-right: 56px;
+}
+
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  margin: 12px;
+  border-radius: 8px;
+  background-color: #121212;
+}
+
+.header-navigation .navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.header-navigation .navigation .arrow-left {
+  margin-right: 1.25rem;
+}
+
+.arrow-left, .arrow-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  background: var(--bg-icon); 
+  background-color: var(--bg-arrow-color);
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.header-login {
+  display: flex;
+  align-items: center;
+}
+
+.header-search {
+  display: flex;
+  align-items: center;
+  width: 364px;
+  height: 40px;
+  margin-left: 8px;
+  background-color: #242424;
+  border-radius: 500px;
+  border: 1px solid transparent;
+}
+
+.header-search img {
+  width: 16px;
+  height: 16px;
+  margin-left: 15px;
+}
+
+.header-search input {
+  background-color: transparent;
+  border: none;
+  padding: 0 100px 0 12px;
+  color: #fff;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  outline: none;
+}
+
+.header-login .subscribe {
+  color: #a7a7a7;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: transparent;
+  margin-right: 32px;
+}
+
+.header-login .login {
+  width: 100px;
+  height: 48px;
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 40px;
+}
+
+.playlist-container {
+  height: 144vh;
+  padding-top: 16px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: #121212;
+}
+
+.playlist {
+  margin: 24px;
+}
+
+.playlist #greeting {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.playlist .greeting-subtitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.playlist .session {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* SCROLL */
+.offer-scroll-container {
+  max-height: 43vh;
+  margin: 24px;
+  overflow-y: auto;
+}
+
+.offer-scroll-container::-webkit-scrollbar {
+  width: 1px;
+}
+
+.offer-scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+/* FIM SCROLL */
+
+/* GRID RESPONSIVO DOS CARDS */
+.offer-list-item {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 16px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.cards {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards span {
+  color: #fff;
+  position: relative;
+  top: -40px;
+  text-decoration: transparent;
+  border-bottom: none;
+}
+
+.cards span a{
+  padding: 16px;
+  font-size: 1rem;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+
+.offer-list-item img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 60%;
+  height: auto;
+  transform: rotate(25deg) translate(10%, -5%);
+  max-width: 80px;
+}
+
+/* COLOR CARDS */
+.card1 { background-color: rgb(87, 100, 98); }
+.card2 { background-color: rgb(12, 90, 120); }
+.card3 { background: rgb(30, 50, 100); }
+.card4 { background: rgb(50, 25, 140); }
+.card5 { background: rgb(64, 62, 66); }
+.card6 { background: rgb(58, 79, 99); }
+.card7 { background: rgb(15, 131, 84); }
+.card8 { background: rgb(20, 138, 8); }
+.card9 { background: rgb(9, 46, 141); }
+.card10 { background: rgb(202, 142, 13); }
+.card11 { background: rgb(25, 16, 34); }
+.card12 { background: rgb(132, 124, 21); }
+.card13 { background: rgb(20, 143, 141); }
+.card14 { background: rgb(15, 130, 78); }
+.card15 { background: rgb(157, 46, 135); }
+.card16 { background: rgb(223, 206, 12); }
+/* FIM COLOR CARDS */
+
+/* CARD ARTISTA */
+.artist {
+  --column-count: 5;
+  --grid-gap: 24px;
+  --min-container-width: 372px;
+}
+
+.hidden {
+  display: none;
+}
+
+.grid-container {
+  grid-gap: 24px;
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr)); /* 5 colunas por padrão */
+  min-width: 767px;
+  padding: 16px; /* Adicionando padding para evitar que o conteúdo encoste nas bordas */
+  box-sizing: border-box; /* Garantindo que o padding não sobrecarregue o layout */
+}
+
+.artist-card {
+  background: #181818;
+  border-radius: 8px;
+  flex: 1;
+  isolation: isolate;
+  padding: 16px;
+  position: relative;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  display: flex;
+  flex-direction: column; /* Garante que o conteúdo seja empilhado corretamente */
+  height: 100%;
+  max-height: 100%;
+}
+
+.artist-card:hover {
+  background-color: #252525;
+}
+
+.card-text {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-height: 62px;
+  flex-grow: 1; /* Garante que o texto ocupe o espaço restante */
+}
+
+.artist-name {
+  margin-block: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  padding-block-end: 8px;
+}
+
+.artist-categorie {
+  color: #6a6a6a;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+/* Estilo do botão de play */
+.play {
+  position: absolute;
+  right: 16px;
+  bottom: 16px;
+  background-color: #1db954;
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.artist-card:hover .play {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.play .fa-play {
+  color: #fff;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.play:hover {
+  background-color: #1ed760;
+  transform: scale(1.1);
+}
+
+card-img{
+  display: none;
+}

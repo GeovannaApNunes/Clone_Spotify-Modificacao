@@ -1,0 +1,284 @@
+{
+  "artists": [
+      {
+          "id": 1,
+          "name": "Caetano Veloso",
+          "genre": "MPB"
+      },
+      {
+          "id": 2,
+          "name": "Gilberto Gil",
+          "genre": "MPB"
+      },
+      {
+          "id": 3,
+          "name": "Elis Regina",
+          "genre": "MPB"
+      },
+      {
+          "id": 4,
+          "name": "Chico Buarque",
+          "genre": "MPB"
+      },
+      {
+          "id": 5,
+          "name": "Ney Matogrosso",
+          "genre": "MPB"
+      },
+      {
+          "id": 6,
+          "name": "Gal Costa",
+          "genre": "MPB"
+      },
+      {
+          "id": 7,
+          "name": "Maria Bethânia",
+          "genre": "MPB"
+      },
+      {
+          "id": 8,
+          "name": "Milton Nascimento",
+          "genre": "MPB"
+      },
+      {
+          "id": 9,
+          "name": "Zeca Baleiro",
+          "genre": "MPB"
+      },
+      {
+          "id": 10,
+          "name": "Jorge Ben Jor",
+          "genre": "MPB"
+      },
+      {
+          "id": 11,
+          "name": "Djavan",
+          "genre": "MPB"
+      },
+      {
+          "id": 12,
+          "name": "Alceu Valença",
+          "genre": "MPB"
+      },
+      {
+          "id": 13,
+          "name": "Lenine",
+          "genre": "MPB"
+      },
+      {
+          "id": 1,
+          "name": "The Beatles",
+          "genre": "Rock"
+      },
+      {
+          "id": 2,
+          "name": "Queen",
+          "genre": "Rock"
+      },
+      {
+          "id": 3,
+          "name": "Led Zeppelin",
+          "genre": "Rock"
+      },
+      {
+          "id": 4,
+          "name": "AC/DC",
+          "genre": "Rock"
+      },
+      {
+          "id": 5,
+          "name": "The Rolling Stones",
+          "genre": "Rock"
+      },
+      {
+          "id": 6,
+          "name": "Pink Floyd",
+          "genre": "Rock"
+      },
+      {
+          "id": 7,
+          "name": "The Doors",
+          "genre": "Rock"
+      },
+      {
+          "id": 8,
+          "name": "Nirvana",
+          "genre": "Rock"
+      },
+      {
+          "id": 9,
+          "name": "U2",
+          "genre": "Rock"
+      },
+      {
+          "id": 10,
+          "name": "Metallica",
+          "genre": "Rock"
+      },
+      {
+          "id": 11,
+          "name": "Deep Purple",
+          "genre": "Rock"
+      },
+      {
+          "id": 12,
+          "name": "Pearl Jam",
+          "genre": "Rock"
+      },
+      {
+          "id": 13,
+          "name": "Foo Fighters",
+          "genre": "Rock"
+      },
+      {
+          "id": 1,
+          "name": "Jorge & Mateus",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 2,
+          "name": "Chitãozinho & Xororó",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 3,
+          "name": "Zezé Di Camargo & Luciano",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 4,
+          "name": "Fernando & Sorocaba",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 5,
+          "name": "Simone & Simaria",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 6,
+          "name": "Marília Mendonça",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 7,
+          "name": "Gusttavo Lima",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 8,
+          "name": "Luan Santana",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 9,
+          "name": "Maiara & Maraisa",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 10,
+          "name": "Henrique & Juliano",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 11,
+          "name": "Matheus & Kauan",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 12,
+          "name": "Zé Neto & Cristiano",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 13,
+          "name": "Bruno & Marrone",
+          "genre": "Sertanejo"
+      },
+      {
+          "id": 1,
+          "name": "Emicida",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 2,
+          "name": "Racionais MC's",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 3,
+          "name": "Criolo",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 4,
+          "name": "Projota",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 5,
+          "name": "Flávio Renegado",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 6,
+          "name": "Rapper Rory",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 7,
+          "name": "Froid",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 8,
+          "name": "MV Bill",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 9,
+          "name": "Marcelo D2",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 10,
+          "name": "Black Alien",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 11,
+          "name": "Sabotage",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 12,
+          "name": "Baco Exu do Blues",
+          "genre": "Hip-Hop"
+      },
+      {
+          "id": 1,
+          "name": "Beethoven",
+          "genre": "Clássica"
+      },
+      {
+          "id": 2,
+          "name": "Mozart",
+          "genre": "Clássica"
+      },
+      {
+          "id": 3,
+          "name": "Bach",
+          "genre": "Clássica"
+      },
+      {
+          "id": 4,
+          "name": "Chopin",
+          "genre": "Clássica"
+      },
+      {
+          "id": 5,
+          "name": "Tchaikovsky",
+          "genre": "Clássica"
+      }
+  ]
+}
